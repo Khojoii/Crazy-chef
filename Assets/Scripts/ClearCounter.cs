@@ -27,7 +27,7 @@ public class ClearCounter : MonoBehaviour, IKitchenObjectParent
         
     }
 
-    public Transform GetKitchenObjectFollowTreansform()
+    public Transform GetKitchenObjectFollowTransform()
     {
         return counterTopPoint;
     }

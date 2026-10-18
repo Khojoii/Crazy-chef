@@ -145,7 +145,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent
             selectedCounter = selectedCounter
         });
     }
-    public Transform GetKitchenObjectFollowTreansform()
+    public Transform GetKitchenObjectFollowTransform()
     {
         return kitchenObjectHoldPoint;
     }
