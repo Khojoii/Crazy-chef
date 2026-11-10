@@ -8,7 +8,7 @@ public class GamePauseUI : MonoBehaviour
     [SerializeField] private Button resumeButton;
     [SerializeField] private Button mainMenuButton;
 
-    private void Awak()
+    private void Awake()
     {
         resumeButton.onClick.AddListener(() =>
         {
